@@ -76,6 +76,7 @@ html,body{
     padding: 0 16px;
     margin: 0 auto;
 }
+.btn,
 button{
     background-color: transparent;
     cursor: pointer;
