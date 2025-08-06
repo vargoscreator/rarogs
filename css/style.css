@@ -816,8 +816,24 @@ textarea{
         left: 20px;
     }
 }
-@media (max-width: 479px) {
-
+@media (max-width: 457px) {
+    .types__start-block:last-child:after{
+        top: 121%;
+        left: 10px;
+    }
+    .types__start-block:first-child:after {
+        left: initial;
+        right: -114px;
+    }
+}
+@media (max-width: 348px) {
+    .types__start-block:last-child:after {
+        top: 118%;
+        left: 2px;
+    }
+    .types__start-block:first-child:after {
+        right: -104px;
+    }
 }
 /* messageBlock */
 .messageBlock{
